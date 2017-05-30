@@ -1,0 +1,35 @@
+
+/*backgound management*/
+body {
+  position: relative;
+  z-index: 0;
+}
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  background: #6441a5;
+}
+
+/*title color*/
+.display-1 {
+  color: white;
+}
+
+/*profile pics*/
+.logo {
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+/*hide template*/
+#template {
+  display: none;
+}
+
+.card{
+  border-radius: 0;
+}
